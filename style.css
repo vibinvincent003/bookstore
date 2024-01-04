@@ -1,0 +1,134 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Roboto Condensed;
+}
+#header{
+    background-color: saddlebrown;
+    height: 70px;
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    
+    }
+    #header h1{
+
+        padding: 4px;
+        color: white;
+        
+    }   
+    i{
+        padding: 8px;
+    }
+    #banner{
+        width: 100%;
+        height: 750px;
+        background-image: url(./wp4353548-book-banner-wallpapers.jpg);
+    
+    
+    }
+    .row{
+
+        background-color: saddlebrown;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+    .col{
+        margin: 80px;
+        background-color: white;
+        height: 500px;
+        border-radius: 40px;
+        width: 300px;
+        align-items: center;
+        text-align: center;
+        
+     
+    }
+    h4{
+        font-size: xx-large;
+    }
+    img{
+        border-radius: 40px;
+        border: thin;
+    }
+    button{
+        background-color: saddlebrown;
+        color: white;
+        font-size: x-large;
+        border-radius: 10px;
+        padding: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        }
+        button:hover{
+        
+            background-color: blue;
+            color: saddlebrown;
+            text-decoration: none;
+            
+        }
+        .footer{
+
+            background-color: rgb(150, 105, 21);
+            width: 97.4%;
+            height: 40px;
+            text-align: center;
+            padding: 24px;
+
+        }
+        #fo{
+            color: white;
+            font-size: x-large;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(123, 255, 0);
+        }
+.col:hover{
+    box-shadow: 10px 10px 5px orange;
+}
+.overlay{
+    position: absolute;
+    top: 43%;
+    left: 5%;
+    
+    }
+    #head{
+    
+        color: white;
+        font-weight: 900;
+        font-size: 60px;
+        text-shadow: 0 0 3px #967d7d, 0 0 5px;
+        font-family: Kalnia;
+    }
+    @media screen and (max-width: 400px){
+
+#banner{
+    width: 400px;
+    height: 500px;
+}
+.row{
+
+    background-color: saddlebrown;
+    width: 400px;
+    height: 2600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+
+}
+
+.footer{
+    width: 400px;
+    text-align: center;
+}
+#fo{
+    margin-left: -40px;
+}
+
+    }
+
+    
